@@ -26,9 +26,6 @@ O projeto contempla **design**, **frontend**, **backend**, **banco de dados**, *
 
 ## 📚 Índice
 
-- [Título e Imagem de capa](#-doces-da-vovó--aplicação-fullstack-para-competição-senac)
-- [Badges](#️-badges)
-- [Resumo do Projeto](#-resumo-do-projeto)
 - [Introdução](#-introdução)
 - [Demonstração](#-demonstração)
 - [Design](#-design)
@@ -36,7 +33,6 @@ O projeto contempla **design**, **frontend**, **backend**, **banco de dados**, *
 - [Decisões de Desenvolvimento](#-decisões-de-desenvolvimento)
 - [Funcionalidades](#-funcionalidades)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Estrutura do Código Fonte](#-estrutura-do-código-fonte)
 - [Requisitos](#-requisitos)
 - [Guia de Instalação](#-guia-de-instalação)
 - [Referências](#-referências)
@@ -160,29 +156,6 @@ O fluxo consiste em:
 
 ---
 
-## 📂 Estrutura do Código Fonte
-
-/
-├── assets/
-│ └── img/ # Imagens do projeto
-├── css/ # Estilos CSS
-├── js/
-│ ├── cabecalho.js # Responsividade do cabeçalho
-│ └── validacao.js # Validação do formulário
-├── pages/
-│ ├── contato.html
-│ ├── formulario.html
-│ └── historia.html
-├── php/
-│ └── formulario.php # Processamento do formulário
-├── index.html
-└── README.md
-
----
-
-
----
-
 ## 📋 Requisitos
 
 - XAMPP instalado  
@@ -238,4 +211,5 @@ CREATE TABLE `tb_contato` (
 ---
 
 Desenvolvido por Galves-gi
+
 Criado em 2025
