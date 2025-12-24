@@ -136,7 +136,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </section>
 
     <!-- Link para o arquivo JavaScript externo -->
-    <script src="/doces-da-vovo/js/validar.js"></script>
+    <script src="/js/validar.js"></script>
 
 </body>
 

@@ -46,22 +46,24 @@ $conn->close();
     <link
         href="https://fonts.googleapis.com/css2?family=Carattere&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/doces-da-vovo/css/header.css">
-    <link rel="stylesheet" href="/doces-da-vovo/css/index.css">
-    <link rel="stylesheet" href="/doces-da-vovo/css/contato.css">
-    <link rel="shortcut icon" href="/doces-da-vovo/assets/logo3.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
 
     <title>Doces da Vovó - Contato</title>
 </head>
 
 <body>
     <header>
-        <img src="/doces-da-vovo/assets/logo.png" alt="logo doces da vovó">
+                <a href="/index.html">
+            <img src="/assets/logo.png" alt="logo doces da vovó">
+        </a>
         <ul class="menu">
-            <li><a href="/doces-da-vovo/index.html">Início</a></li>
-            <li><a href="/doces-da-vovo/#produto">Produto</a></li>
-            <li><a href="/doces-da-vovo/pages/historia.html">Nossa História</a></li>
-            <li><a href="/doces-da-vovo/pages/contato.html">Contato</a></li>
+            <li><a href="/index.html">Início</a></li>
+            <li><a href="/#produto">Produto</a></li>
+            <li><a href="/pages/historia.html">Nossa História</a></li>
+            <li><a href="/pages/contato.html">Contato</a></li>
         </ul>
         <button onclick="trocarMenu()"><i id="icon" class="bi bi-list"></i></button>
     </header>
@@ -138,14 +140,14 @@ $conn->close();
         <ul class="footer-menu">
             <li><a href="index.html">Início</a></li>
             <li><a href="#produto">Produto</a></li>
-            <li><a href="pages/historia.html">Nossa História</a></li>
-            <li><a href="pages/contato.html">Contato</a></li>
+            <li><a href="/pages/historia.html">Nossa História</a></li>
+            <li><a href="/pages/contato.html">Contato</a></li>
         </ul>
         <h5>Todos os direitos reservados.</h5>
     </footer>
 
-    <script src="/doces-da-vovo/js/header.js"></script>
-    <script src="/doces-da-vovo/js/validar.js"></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/validar.js"></script>
 </body>
 
 </html>

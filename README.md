@@ -1,52 +1,241 @@
-# **Site Doces da Vovó**
-## Descrição
-O site Doces da Vovó tem como objetivo permitir que os clientes conheçam os produtos, vejam fotos e entrem em contato para fazer pedidos. O projeto consiste em 3 paginas: 
-- index: página principal com apresentação dos produtos;
-- nossa história: Conta a história da marca e sua tradição;
-- contato: com iframe de localização e formulário para os clientes entrarem em contato.
+# 🍬 Doces da Vovó — Aplicação FullStack para Competição Senac
 
-O wireframe do projeto foi criado no figma e pode ser acessado através do link [figma: Doces da Vovó](https://www.figma.com/design/PCEw7zcyWOh1kaEDE44g9w/doces-da-vovo?m=auto&t=rd9ehFDVxSyD43xI-6). 
+![Imagem de capa do projeto Doces da Vovó](./assets/img-readme/capa.png)
 
-As cores utilizadas: 
-- #fff8f4;
-- #bb826d;
-- #fff8f4;
-- #500a0a;
+---
 
-As fonts utilizadas
-As fontes foram obtidas no [Google](https://www.bing.com/ck/a?!&&p=355f126c3574215cae20b9d21460f67c5fa6fe47af7e02d63d06cfaef7110c44JmltdHM9MTc0MjE2OTYwMA&ptn=3&ver=2&hsh=4&fclid=1e41393c-85c0-67c9-3553-2c9b84ec66b9&psq=google+fonts&u=a1aHR0cHM6Ly9mb250cy5nb29nbGUuY29tLw&ntb=1):
-- Carattere: Para títulos e texto destaque.
-- Cardo: Para texto. 
+## 🏷️ Badges
 
-## Tecnologias e ferramentas utilizadas no projeto:
-Para realizar este projeto é necessário conhecimentos nas linguagem de JavaScript, Php e Sql, além disso html e css. As ferramentas necessarias são Xampp e figma.
+![Status](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-orange?style=for-the-badge)
+![Figma](https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=figma)
 
-## Instalação
-Para rodar este projeto localmente, siga os passos abaixo:
+---
 
-1. Clona repositório dentro da pasta c:\xampp\htdocs\:
+## 📝 Resumo do Projeto
+
+O **Doces da Vovó** é uma aplicação **fullstack** desenvolvida como preparação para a **Competição Senac de Educação Profissional**, simulando uma loja de doces fictícia que precisava de presença digital.  
+O projeto contempla **design**, **frontend**, **backend**, **banco de dados**, **validação de formulários** e **boas práticas de segurança**, resultando em uma solução completa e funcional.
+
+---
+
+## 📚 Índice
+
+- [Título e Imagem de capa](#-doces-da-vovó--aplicação-fullstack-para-competição-senac)
+- [Badges](#️-badges)
+- [Resumo do Projeto](#-resumo-do-projeto)
+- [Introdução](#-introdução)
+- [Demonstração](#-demonstração)
+- [Design](#-design)
+- [Arquitetura do Sistema](#-arquitetura-do-sistema)
+- [Decisões de Desenvolvimento](#-decisões-de-desenvolvimento)
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Estrutura do Código Fonte](#-estrutura-do-código-fonte)
+- [Requisitos](#-requisitos)
+- [Guia de Instalação](#-guia-de-instalação)
+- [Referências](#-referências)
+
+---
+
+## 🚀 Introdução
+
+Este projeto foi desenvolvido com o objetivo de **treinar e simular um cenário real** para participação na **Competição Senac de Educação Profissional**.  
+A proposta foi criar uma **aplicação fullstack** capaz de resolver problemas de uma **loja de doces fictícia** que não possuía site.
+
+### Problemas abordados
+- Ausência de presença digital  
+- Falta de identidade visual  
+- Inexistência de canal de contato com clientes  
+
+### Solução
+Foi criada uma aplicação com **identidade visual própria** e as seguintes páginas:
+- **Índice**: apresentação dos produtos  
+- **Nossa História**: história da marca e sua tradição  
+- **Contato**: localização via iframe e formulário de contato funcional  
+
+---
+
+## 🔗 Demonstração
+
+- 🌐 **Deploy (Vercel)**:  
+  > ⚠️ *A demonstração no Vercel não inclui o processamento em PHP nem o banco de dados SQL.*
+
+👉 **Link**: *[https://doces-da-vovo.vercel.app/]*
+
+---
+
+## 🎨 Design
+
+O design do projeto foi planejado antes do desenvolvimento, utilizando **wireframe e sitemap no Figma**.
+
+- 🔗 **Figma**: *[https://www.figma.com/proto/PCEw7zcyWOh1kaEDE44g9w/doces-da-vovo?node-id=0-1&t=lWHReIhxQuHIVOcW-1]*  
+
+### 🎨 Paleta de cores
+- `#fff8f4`
+- `#bb826d`
+- `#500a0a`
+
+### 🔤 Tipografia (Google Fonts)
+- **Caráter** — títulos e textos de destaque  
+- **Cardo** — textos corridos  
+
+---
+
+## 🏗️ Arquitetura do Sistema
+
+O projeto segue uma arquitetura **simples e organizada**, adequada a aplicações educacionais fullstack:
+
+- **Frontend**: HTML5, CSS3 e JavaScript  
+- **Backend**: PHP  
+- **Banco de Dados**: MySQL  
+- **Ferramentas**: XAMPP (servidor local) e Figma (design)
+
+O fluxo consiste em:
+1. Usuário acessa o site
+2. Preenche o formulário
+3. Dados são validados no frontend
+4. Backend processa e salva no banco de dados
+
+---
+
+## 🔐 Decisões de Desenvolvimento
+
+### 1️⃣ Sanitização de Dados
+- Redução de riscos de ataques maliciosos
+- Padronização da entrada de dados
+- Maior confiabilidade das informações
+
+### 2️⃣ Proteção contra XSS
+- `htmlspecialchars()` para converter caracteres especiais
+- `strip_tags()` para remover tags HTML e PHP
+- Evita execução de scripts maliciosos
+
+### 3️⃣ Proteção contra SQL Injection
+- Uso de **consultas preparadas**
+- Separação entre comando SQL e dados
+- Aumento da segurança do banco de dados
+
+---
+
+## ⚙️ Funcionalidades
+
+### 🏠 Página Índice
+- Apresentação dos produtos
+- Destaque visual da marca
+
+![Página Índice](./assets/img-reame/capa.png)
+
+---
+
+### 📖 Nossa História
+- História da marca
+- Valorização da tradição
+
+---
+
+### 📬 Contato
+- Iframe com localização
+- Formulário de contato com validação
+
+
+---
+
+## 🧰 Tecnologias Utilizadas
+
+| Categoria     | Tecnologia     | Versão | Propósito no Projeto                     | Justificativa |
+|--------------|---------------|--------|-------------------------------------------|--------------|
+| Frontend     | HTML5          | —      | Estrutura das páginas                     | Padrão web   |
+| Frontend     | CSS3           | —      | Estilização e responsividade              | Flexibilidade|
+| Frontend     | JavaScript     | —      | Validação e interatividade                | Dinamismo    |
+| Backend      | PHP            | —      | Processamento do formulário               | Simples e eficaz |
+| Banco de Dados | MySQL        | —      | Armazenamento dos dados                   | Popular e confiável |
+| Ferramentas  | XAMPP          | —      | Servidor local                            | Facilidade   |
+| Design       | Figma          | —      | Wireframe e layout visual                 | Colaboração  |
+
+---
+
+## 📂 Estrutura do Código Fonte
+
+/
+├── assets/
+│ └── img/ # Imagens do projeto
+├── css/ # Estilos CSS
+├── js/
+│ ├── cabecalho.js # Responsividade do cabeçalho
+│ └── validacao.js # Validação do formulário
+├── pages/
+│ ├── contato.html
+│ ├── formulario.html
+│ └── historia.html
+├── php/
+│ └── formulario.php # Processamento do formulário
+├── index.html
+└── README.md
+
+---
+
+
+---
+
+## 📋 Requisitos
+
+- XAMPP instalado  
+- Navegador atualizado  
+- Conhecimentos básicos em:
+  - HTML
+  - CSS
+  - JavaScript
+  - PHP
+  - SQL  
+
+---
+
+## 🛠️ Guia de Instalação
+
+### 1️⃣ Clonar o repositório
+
+Clone o projeto dentro da pasta do XAMPP:
+
 ```bash
 git clone https://github.com/gi-alves/doces-da-vovo
 ```
-2. Acessa phpmyadmin na url http:/localhost/phpmyadmin é configura o banco de dados:
-- Nome do banco: formulario
-- SQL
-```sql:
-  CREATE TABLE `tb_contato` (
+
+### 2️⃣ Configurar o Banco de Dados
+
+Acesse o phpMyAdmin:
+```bash
+http://localhost/phpmyadmin
+```
+
+- Crie o banco de dados:
+
+Nome: formulario
+
+Execute o SQL:
+```bash
+CREATE TABLE `tb_contato` (
   `nome` varchar(100) NOT NULL,
   `email` text NOT NULL,
   `mensagem` text NOT NULL,
   `id_contato` int(11) NOT NULL
-)
-  ```
+);
+```
+---
 
-## Recomendações de segurança
+## 📚 Referências
 
-Para garantir a segurança do site e dos dados dos usuários, foram implementadas as seguintes práticas:
+- Documentação PHP
+- MySQL Docs
+- Google Fonts
+- Figma
 
-1. - Satinização: Validação do E-mail para confirmar a entrada no inicio do processo.
-2. - htmlspecialchars(): Converte caracteres especiais em entidadea de HTML para evitar ataques XSS;
-3. - strip_tags(): Remove todas as tags HTML e PHP dos dados;
-4. - Proteção contra SQL Injection: Uso de consultas preparadas para evitar injeção de SQL. 
+---
 
-
+Desenvolvido por Galves-gi
+Criado em 2025
